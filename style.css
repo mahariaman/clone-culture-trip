@@ -31,9 +31,8 @@
     background-color: #ecf2f8;
 }
 .btn-dark:hover {
-    background-color: #3FFF00;
+    background-color: #3FFF00 !important;
 }
-
 .nav-item .btn-sm:hover {
     color: black;
 }
