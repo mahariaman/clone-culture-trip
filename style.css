@@ -1,0 +1,78 @@
+@font-face{
+    font-family: "Proxima Nova Bold";
+    src: url("./assets/proxima_ssv/Proxima\ Nova\ Bold.otf");
+}
+@font-face{
+    font-family: "Proxima Nova";
+    src: url("./assets/proxima_ssv/ProximaNova-Regular.otf");
+}
+*{
+    font-family: "Proxima Nova",Helvetica;
+}
+/*! navbar */
+.navbar{
+    z-index: 10;
+}
+
+.nav-item {
+    font-size: 14px;
+    
+}
+
+.nav-link{
+    font-family: "Proxima Nova Bold",Helvetica;
+}
+.btn-sm {
+    width: 90px;
+    text-align: center;
+}
+.wrapper-sub-header{
+    height: 32px;
+    background-color: #ecf2f8;
+}
+.btn-dark:hover {
+    background-color: #3FFF00;
+}
+
+.nav-item .btn-sm:hover {
+    color: black;
+}
+
+/*! navbar */
+
+/* !search box */
+.carousel-item {
+    height: 550px;
+}
+
+.wrapper-search-text-header {
+    margin-top: -20%;
+}
+.search-box{
+    position: relative;
+    margin-left: 500px;
+}
+.wrapper-text-content-slides {
+    position: relative;
+}
+
+.text-contents-slides {
+    color: white;
+}
+.text-contents-slides{
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Proxima Nova Bold",Helvetica;
+}
+.form-control {
+    height: 60px;
+    border: transparent;
+}
+
+.input-group {
+    width: 30%;
+    height: 60px;
+    margin-left: 35%;
+}
+
+/* !search box */
